@@ -1,41 +1,27 @@
 # Set Game Project
 
-This project is part of the SPL course at Ben-Gurion University. It focuses on implementing a Set Game, with an emphasis on utilizing threads and thread synchronization. We have added the assigment intructions.
+Welcome to the Set Game project! This project is part of the SPL course at Ben-Gurion University, designed to implement a digital version of the classic card game "Set". The focus of this project lies in threading and synchronization mechanisms, emphasizing smooth gameplay in a multi-threaded environment. We have added the assigment instructions to the reposetory
 
-## Description
+## About the Set Game
 
-The Set Game is a pattern recognition card game where players identify sets of three cards based on certain features. The project aims to implement the game logic and user interface, allowing players to interactively play the game.
+Set is a fast-paced card game where players must identify "sets" of three cards based on specific features. Each card has four attributes: shape (oval, squiggle, or diamond), color (red, green, or purple), number (one, two, or three), and shading (solid, striped, or open). A set consists of three cards in which each attribute is either all the same or all different across the three cards.
 
-## Features
+## Project Structure
+
+The project comprises several components, including:
 
 - **Game Logic:** Implements the rules and mechanics of the Set Game.
 - **User Interface:** Provides a graphical interface for players to interact with the game.
 - **Thread Handling:** Utilizes threads for handling game logic and user input to ensure smooth gameplay.
 - **Thread Synchronization:** Implements synchronization mechanisms to prevent race conditions and ensure data integrity in a multi-threaded environment.
 
-## Implemented Classes (Under "ex" Package)
+## Implemented Classes
 
-```java
-1. Card
+Within the project, the following classes have been implemented:
 
-- Represents a single card in the Set Game.
-- Contains attributes such as shape, color, number, and shading.
-
-2. Deck
-
-- Represents a deck of cards.
-- Responsible for shuffling the cards and dealing them to players.
-
-3. Player
-
-- Represents a player in the Set Game.
-- Manages the player's hand and score.
-
-4. SetGame
-
-- Main class responsible for orchestrating the Set Game.
-- Handles game initialization, player turns, and determining the winner.
-```
+1. **Card:** Represents a single card in the Set Game, featuring attributes such as shape, color, number, and shading.
+2. **Deck:** Manages the deck of cards, responsible for shuffling and dealing cards to players.
+3. **Player:** Represents a player in the Set Game, managing their hand and score.
 
 ## Getting Started
 
